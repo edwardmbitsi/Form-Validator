@@ -33,7 +33,8 @@
  .input {  
   margin-bottom: 20px;  
   position: relative;  
- }  
+ } 
+
  .input label {  
   display: block;  
   margin-bottom: 10px;  

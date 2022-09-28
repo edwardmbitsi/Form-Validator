@@ -61,6 +61,7 @@
  .input.success input {  
   border: 2px solid #2ecc71;  
  }  
+
  .input.error input {  
   border: 2px solid #e74c3c;  
  }  

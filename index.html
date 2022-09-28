@@ -5,44 +5,54 @@
   <link rel="stylesheet" href="style.css">
   <title>Weather App</title>
 </head>  
-  <body>
-  <div class="container">  
-  <div class="title">  
-   <h1 id="city"></h1>  
-   <div id="graphic" class="weather-icon"></div>  
-   <div id="description" class='important-info text'></div>  
-   <div id="farenheit" class="temp-info"></div>  
-   <div id="celsius" class="temp-info"></div>  
-  </div>  
- </div>  
- <div class="description-container">  
-  <div class="block-1">  
-   <div class="text">  
-    <span>Max</span>  
-    <span id="max" class="important-info"> </span>  
+   <body>  
+   <div class="container">  
+    <h1>Register With Us</h1>  
+    <form action="" id="form" class="form">  
+     <div class="input">  
+      <label for="username">Username</label>  
+      <input  
+       type="text"  
+       name="username"  
+       id="username"  
+       placeholder="Username"  
+       autocomplete="off"  
+      />  
+      <small>Error message</small>  
+     </div>  
+     <div class="input">  
+      <label for="email">Email</label>  
+      <input  
+       type="text"  
+       name="email"  
+       id="email"  
+       placeholder="Email"  
+       autocomplete="off"  
+      />  
+      <small>Error message</small>  
+     </div>  
+     <div class="input">  
+      <label for="password">Password</label>  
+      <input  
+       type="password"  
+       name="password"  
+       id="password"  
+       placeholder="Password"  
+      />  
+      <small>Error message</small>  
+     </div>  
+     <div class="input">  
+      <label for="c-password">Confirmer Password</label>  
+      <input  
+       type="password"  
+       name="c-password"  
+       id="c-password"  
+       placeholder="Confirmer Password"  
+      />  
+      <small>Error message</small>  
+     </div>  
+     <button>Submit</button>  
+    </form>  
    </div>  
-   <div class="text">  
-    <span>Min</span>  
-   <span id="min" class='important-info'> </span>  
-   </div>  
-  </div>  
-  <div class="block-2">  
-   <div id="longitude" class=" text important-info">Lon: </div>  
-   <div id="latitude" class="text important-info">Lat: </div>  
-  </div>  
-  <div class="block-3">  
-   <div id="humidity" class="text important-info">Humidity: </div>  
-   <div id="pressure" class="text important-info">Pressure: </div>  
-   <div id="windSpeed" class="text important-info">Winds: </div>  
-  </div>  
- </div>  
- <div class="container-button">  
-    <div class="switch-button">  
-     <span class="active"></span>  
-     <button class="text switch-button-case left active-case">Celsius</button>  
-     <button class="text switch-button-case right">Farenheit</button>  
-    </div>  
- </div> 
-    <script src="script.js"></script>
-  </body>  
+    </body>  
 </html>  

@@ -65,6 +65,7 @@
  .input.error input {  
   border: 2px solid #e74c3c;  
  }  
+
  .input.error small {  
   visibility: visible;  
  }  

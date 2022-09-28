@@ -31,6 +31,7 @@
   grid-template-columns: 1fr;  
   margin-top: 10px;  
  }  
+
  .weather-icon,  
  .title{  
   grid-column: 1/4;  
